@@ -88,7 +88,7 @@ header
 .logo_container .calendar
 {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 5%;
 	vertical-align: middle;
 	margin-right: auto;
@@ -114,7 +114,7 @@ header
 .logo_container .calendar
 {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 5%;
 	vertical-align: middle;
 	margin-right: auto;
@@ -159,7 +159,7 @@ header
 {
 	height:43px;
 	line-height: 43px;
-	background:rgba(31,38,40,.20);
+	background:rgba(0,0,0,.40);
 }
 .menu_nav nav
 {
@@ -313,6 +313,9 @@ header
 	border-bottom: 1px solid #C3A26D;
 	padding-bottom: 17px;
 }
+.option-container p{
+	text-transform: uppercase;
+}
 .option-container
 {
     padding-bottom: 43px;
@@ -382,6 +385,21 @@ header
 {
 	font-size: 31px;
 	color: #6794BE;
+	font-family: "Playfair Display";
+	font-size: 24px;
+	font-weight: bold;
+}
+.green h3, .green .icono{
+	color: #349742;
+	border-color: #349742 !important; 
+}
+.orange h3, .orange .icono{
+	color: #D17628;
+	border-color: #D17628 !important; 
+}
+.blue h3, .blue .icono{
+    color: #3295D2;
+	border-color: #3295D2 !important;
 }
 .icono
 {
@@ -391,29 +409,35 @@ header
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background: #FFFFFF;
-  border: 3px solid #5281B9;
+  border: 2px solid ;
   position: absolute;
   right: 30px;
   bottom: 15px;
 }
 .pluss
 {
-	font-size: 37px !important;
+    font-size: 30px !important;
     position: absolute !important;
-    top: -14px !important;
-    color: #4F81B4 !important;
+    top: -9px !important;
+    left: 4px;
 }
+
 .center-block h3
 {
-	font-size: 31px;
-	color: #305742;
+	font-size: 34px;
+	color: #221D1F;
 	text-align: center;
+	font-family: "Lato";
+	font-weight: 400;
 }
 .center-block p
 {
-	color: #305742;
-	font-size: 13px;
-	text-align: center;
+	color: #221D1F;
+	font-size: 12px;
+	font-weight: 400;
+	width: 500px;
+	margin: auto;
+	font-family: "Playfair Display";
 }
 .multimedia img
 {
@@ -426,7 +450,7 @@ header
 	border: none;
 	background: #FFFFFF;
 	font-size: 33px;
-	color: #2D5A45;
+	color: #003559;
 	height: 31px;
     margin-bottom: 42px;
 }
@@ -441,6 +465,12 @@ header
 	vertical-align: bottom;
     margin-bottom: 34px;
 }
+.box input::placeholder{
+	color: #B4B4B4;
+	font-weight: bold;
+	font-family: "Playfair Display";
+	font-size: 16px;
+}
 .center-block
 {
 	text-align: center;
@@ -448,6 +478,7 @@ header
 .center-block input, .center-block button
 {
 	display: inline-block;
+	padding-left: 30px;
 }
 .copyright
 {
@@ -1111,6 +1142,11 @@ width: 100%;
 		position: absolute;
 		width: 100%;
 		text-align: center;
+		height: 0px;
+	}
+		.top-header p
+	{
+display: none;
 	}
 	.top-search
 	{
@@ -1120,13 +1156,12 @@ width: 100%;
 	{
 		font-size: 10px;
 	}
-	.logo_container
-	{
-		margin-top: 36px;
-	}
 	.logo_container img
 	{
-		max-height: 36px;
+		max-height: 1000px;
+	}
+	.main-icon{
+		display: none;
 	}
 	.menu_nav
 	{
@@ -1171,9 +1206,18 @@ width: 100%;
 	{
 		top: 0px;
 	}
-	.calendar, .audio
+	.audio
 	{
 		display: none;
+	}
+	.calendar{
+		display: block;
+ 		position: absolute !important;
+		left: 50% !important;
+		width: 54px;
+		max-height: none !important;
+		height: auto;
+		margin-left: -27px !important;
 	} 
 	.icon-menu, .icon-search
 	{
@@ -1221,6 +1265,25 @@ width: 100%;
 		font-size: 19px;
 		margin-right: 18px;
 	}
+	.icon-footer{
+		text-align: center;
+	}
+	.icon-footer img {
+		margin-top: 30px;
+	}
+	.free-zone p {
+		display: none;
+	}
+	.footer iframe{
+		width: 112%;
+		height: 361px;
+	}
+	.center-block p{
+		width: 100%;
+	}
+	.box input::placeholder{
+		color: transparent !important;
+	}
 }
 .mostrar
 {
@@ -1237,6 +1300,8 @@ width: 100%;
 .top-header-active
 {
 	padding-right: 0px;
+	height: 0px;
+
 }
 .top-search-active
 {
@@ -1264,22 +1329,21 @@ width: 100%;
 	width: 100% !important;
 	font-size: 23px!important;
 	height: 68px!important;
-	background: #FFFFFF!important;
+	background: transparent !important;
 	color: #2C5942 !important;
+	border: none !important;
 }
 .top-input-active::placeholder
 {
-	color: #2C5942 !important;
+	color: #FFFFFF !important;
 }
 .top-input-active:focus
 {
-	box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px !important;
-	border-color: #2C5942 !important;
-    outline: 0px !important;
+	absolute: none;
 }
 .search-active
 {
 	z-index: 2;
 	position: fixed;
-	top: 80px;
+	top: 40px;
 }
