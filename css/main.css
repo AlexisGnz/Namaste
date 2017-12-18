@@ -591,6 +591,7 @@ header
 .promocion-container img{
 	padding: 30px 0px;
 	border-bottom: 2px solid #1C8388;
+	max-width: 100%;
 }
 .accordion-madre-active{
 	background-color: #5F82BC !important;
@@ -1284,6 +1285,21 @@ display: none;
 	.box input::placeholder{
 		color: transparent !important;
 	}
+	.tarjeta{
+		top: 0px !important;
+		left: 0px !important;
+	}
+	.icon-footer ul{
+		float: none;
+	}
+	.stick-blog{top : -80px !important;}
+	.stick-apertura{
+		padding: 0px !important;
+	}
+	.grey{
+		margin-top: -80px;
+	}
+	
 }
 .mostrar
 {
