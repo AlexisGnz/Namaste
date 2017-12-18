@@ -890,10 +890,12 @@ header
 }
 .tarjeta{
 	background-color: #1F1B1C;
-	padding: 45px;
-	position: absolute;
+	padding: 45px !important;
+	position: absolute !important;
 	top: calc(50% - 147px );
 	left: calc(20%);
+	float: none;
+	width: auto !important;
 }
 .tarjeta strong{
 	color: #FFFFFF;
@@ -1288,6 +1290,7 @@ display: none;
 	.tarjeta{
 		top: 0px !important;
 		left: 0px !important;
+		position: relative !important;
 	}
 	.icon-footer ul{
 		float: none;
