@@ -1027,6 +1027,9 @@ width: 100%;
 	padding-left: 0px;
 	padding-right: 15px;
 }
+.stick-n h2{
+	color: #06406E !important;
+}
 .more-post ul li{
 	list-style: none;
 }
@@ -1050,6 +1053,19 @@ width: 100%;
 }
 .padding-none{
 	padding: 0px !important;
+}
+.header-form{
+	margin-top: 50px;
+}
+.header-form h2{
+	font-size: 30px;
+	color: #06406E;
+	font-weight: bold;
+}
+.header-form button{
+	padding: 12px 9px;
+	background-color: transparent;
+	border: 1px solid #5D5D5D;
 }
 @media screen and (max-width: 1199px)
 {
