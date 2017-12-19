@@ -710,6 +710,10 @@ header
 	text-decoration: none;
 	padding: 51px;
 }
+#tabs hr{
+	height: 1px;
+	background-color: #DFE3E6;
+}
 .home-tabs
 {
 	display: none;
@@ -726,13 +730,14 @@ header
 {
 	font-size: 26px;
 	text-transform: uppercase;
-	margin-top: 79px;
+	margin-top: 10px;
 	margin-bottom: 32px
 }
 .card-text p 
 {
 	margin: 0px 0px -22px;
 	color: #004175;
+	width: 110%;
 }
 .card-img
 {
@@ -749,6 +754,9 @@ header
 {
 	width: 100%;
 	height: auto;
+}
+.text-mebers p{
+	line-height: 36px;
 }
 .title-beneficios-container
 {
@@ -804,6 +812,18 @@ header
     margin-left: auto;
     margin-top: 35px;
 }
+.card-tab-3{
+	font-size: 26px;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #004175;
+}
+#tabs-3{
+	margin-top: 30px;
+}
+.member p{
+
+}
 #tabs-3 ul 
 {
 
@@ -814,15 +834,16 @@ header
     width: 100%;
     background-color: #DCE3E9;
     border-radius: 33px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     margin-top: 7px;
     padding: 0 33px;
 }
+.asterisco-none{color: #DCE3E9;}
 #tabs-3 ul p
 {
 	float: right;
     position: relative;
-    top: -49px;
+    top: 10px;
     right: 23px;
     font-size: 33px;
     padding: 0 43px;
@@ -1302,6 +1323,13 @@ display: none;
 	.grey{
 		margin-top: -80px;
 	}
+	.sub-container{
+		padding: 0px !important;
+		margin: 88px 0px 0px;
+	}
+	.sub-container p{
+		padding: 0 15px !important;
+	} 
 	
 }
 .mostrar
