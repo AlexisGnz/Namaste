@@ -668,9 +668,37 @@ header
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
+.fix-blog img{
+	min-height: 320px !important;
+}
 .welcome-img
 {
     padding-top: 12px;
+}
+.faq-container {
+	padding: 60px 0px;
+	text-align: center;
+}
+.faq-container h1 {
+	font-size: 33px;
+	text-transform: capitalize;
+	color: #00447E;
+	margin-bottom: 65px;
+}
+.faq{
+	text-align: left !important;
+	padding-bottom: 60px;
+	max-height: 200px;
+}
+.faq h3{
+	color: #00447E;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.faq p{
+	font-size: 15px;
+	color: #858585;
+	width: 410px;
 }
 .menu-services
 {
@@ -686,6 +714,7 @@ header
 	width: 100%;
 	margin-top: -1px;
 }
+#tabs-4 {line-height: 1.42857143 !important;}
 #tabs
 {
  width: 100%;
@@ -795,6 +824,9 @@ header
 .sub-container img
 {
 	margin-bottom: 28px;
+width: 300px;
+height: auto;
+max-height: 250px !important;
 }
 .sub-container-2
 {
@@ -1005,6 +1037,9 @@ width: 100%;
 	color: #BA9E70;
 	padding: 15px;
 	border-bottom: 2px solid #BA9E70; 
+}
+.parteners-container{
+	margin-bottom: 30px;
 }
 .stick-apertura section p{
 	font-size: 18px;
@@ -1328,9 +1363,24 @@ display: none;
 		margin: 88px 0px 0px;
 	}
 	.sub-container p{
-		padding: 0 15px !important;
+		padding: 0 15px !important
 	} 
-	
+	.faq{
+		text-align: center !important;
+		max-height: none;
+	}
+	.faq p{
+		width: 250px;
+	}
+	.stick-data-blog{
+		padding: 58px 10px 81px 10px !important;
+	}
+	.stick-data-blog b{
+		float: none;
+	}
+	.fix-blog img {
+    min-height: 260px !important;
+}
 }
 .mostrar
 {
