@@ -1017,6 +1017,9 @@ width: 100%;
 	font-family: "Playfair Display";
     color: #5183B8;
 }
+.promocion-container img:last-child{
+	border-bottom: none;
+}
 .more-post{
 	padding-left: 15px;
 }
