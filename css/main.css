@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100i,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i');
 html {
-  font-family: "Lato",sans-serif;
+  font-family: 'Playfair Display', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -11,7 +11,9 @@ header
 }
 .top-header
 {
-	font-family: "Lato";
+	
+    font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	padding: 0 2%;
 	height: 36px;
 	line-height: 36px;
@@ -178,6 +180,10 @@ header
 {
 	display: inline-block;
 	width: 16%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+
 }
 .menu_nav nav ul li a
 {
@@ -315,6 +321,9 @@ header
 }
 .option-container p{
 	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 11px; 
 }
 .option-container
 {
@@ -381,6 +390,15 @@ header
     padding-top: 19px;
     margin-top: 0px;
 }
+.data p{
+	font-family: "Playfair Display";
+}
+.data strong p{
+	display: inline;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+
+}
 .data h3
 {
 	font-size: 31px;
@@ -419,7 +437,9 @@ header
     font-size: 30px !important;
     position: absolute !important;
     top: -9px !important;
-    left: 4px;
+    left: 3px;
+    font-weight: 800 !important;
+
 }
 
 .center-block h3
@@ -1351,6 +1371,10 @@ display: none;
 	}
 	.free-zone p {
 		display: none;
+	}
+	.footer p{
+		font-family: 'Playfair Display';
+		font-weight: 200;
 	}
 	.footer iframe{
 		width: 112%;
