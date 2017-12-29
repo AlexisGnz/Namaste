@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,70,0700i,900,900i');
 html {
   font-family: 'Playfair Display', serif;
   -ms-text-size-adjust: 100%;
@@ -356,6 +356,10 @@ header
 	color: #FFFFFF;
 	border: none;
 	font-size: 16px;
+	font-style: italic;
+	font-family: 'Lato';
+	font-weight: bold;
+
 }
 .banner-main img
 {
@@ -517,22 +521,47 @@ header
   margin-top: -255px;
   margin-bottom: 68px;
 }
-.welcome
-{
-  padding: 71px 101px 30px 116px;
+.welcome{
+	padding: 55px 130px 0px 53px !important;
 }
 .welcome h1
 {
   font-size: 36px;
-  color: #00355A;
+  color: #010002;
   text-align: left;
+  width: 75%;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 34px;
 }
 .welcome p
 {
   font-size: 16px;
+  font-family: 'Playfair Display';
   color: #808080;
   text-align: left;
   font-weight: 400;
+}
+.otra-apertura h3 {
+	font-family: 'Lato';
+	font-weight: 800;
+	font-size: 12px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #000000;
+}
+.otra-apertura ul li{
+	font-family: 'Lato';
+	font-weight: 800;
+	font-size: 12px;
+}
+.otra-apertura p{
+		font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	width: 65%;
+}
+.otra-apertura-container{
+	padding-left: 30px;
 }
 .gris{
 	background-color: #E5E5E5 !important;
@@ -966,9 +995,9 @@ max-height: 250px !important;
 	padding: 45px !important;
 	position: absolute !important;
 	top: calc(50% - 147px );
-	left: calc(20%);
+	left: 25%;
 	float: none;
-	width: auto !important;
+	width: 50% !important;
 }
 .tarjeta strong{
 	color: #FFFFFF;
@@ -987,7 +1016,32 @@ max-height: 250px !important;
 	font-size: 16px;
 	font-weight: 400;
 	color: #808080;
-	width: 60%;
+}
+.viejo a{
+	font-family: 'Lato';
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	text-decoration: none;
+}
+.instalaciones a{
+	font-family: 'Lato';
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	text-decoration: none;
+}
+.img-width a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
 }
 .right
 {
@@ -1020,6 +1074,9 @@ width: 100%;
 .stick-apertura img{
 	width: 100%;
 	height: auto;
+}
+.img-width{
+	max-height: 653px;
 }
 .padding-none-left{
 	padding-left: 0px !important;
