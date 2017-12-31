@@ -758,6 +758,9 @@ header
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.beneficios-responsive{
+	display: none;
+}
 .slider-nclub img
 {
 	width: 100%;
@@ -767,7 +770,6 @@ header
 #tabs
 {
  width: 100%;
- height: 50px; 
  line-height: 50px;
  border-bottom: 1px solid #DBE2E8;
 }
@@ -1520,6 +1522,39 @@ display: none;
 	}
 	.parteners-container img{
 		margin-bottom: 35px;
+	}
+	.partners{
+		font-size: 20px;
+		text-align: center;
+	}
+	.card-img img{
+		margin-bottom: 20px;
+	}
+	.beneficios-responsive{
+		display: inherit;
+
+	}
+	.title-beneficios-container{
+		padding: 0;
+	}
+	.title-beneficios-container h2{
+		font-size: 22px;
+		text-align: center;
+	}
+	.beneficios-responsive {
+		line-height: 25px;
+	}
+	.img-banner-beneficios{
+		display: none;
+	}
+	.text-center-responsive{
+		text-align: center;
+	}
+	.img-card-beneficios{
+		display: inherit;
+		left: 22px;
+		top: 12px;
+
 	}
 }
 .mostrar
