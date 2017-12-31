@@ -1554,7 +1554,16 @@ display: none;
 		display: inherit;
 		left: 22px;
 		top: 12px;
-
+	}
+	.col-xs-12{
+		width: 100% !important;
+	}
+	.welcome{
+		padding: 22px 15px 0px 15px !important;
+	}
+	.welcome h1{
+		width: 100% !important;
+		margin-bottom: 30px;
 	}
 }
 .mostrar
